@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/intertek-dashboard/static/css/main.27fb8f43.css",
+    "main.js": "/intertek-dashboard/static/js/main.c1f670f6.js",
+    "static/media/logo.png": "/intertek-dashboard/static/media/logo.15cd005860809fedf280.png",
+    "static/media/spinner2.png": "/intertek-dashboard/static/media/spinner2.832de5994f3ab60b1fd8.png",
+    "index.html": "/intertek-dashboard/index.html",
+    "main.27fb8f43.css.map": "/intertek-dashboard/static/css/main.27fb8f43.css.map",
+    "main.c1f670f6.js.map": "/intertek-dashboard/static/js/main.c1f670f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27fb8f43.css",
+    "static/js/main.c1f670f6.js"
+  ]
+}
