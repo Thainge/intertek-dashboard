@@ -1,0 +1,70 @@
+.dropdownContainer {
+    position: relative;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropButton {
+    font-weight: 600;
+    user-select: none;
+    display: flex;
+    column-gap: .3em;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: all .3s;
+}
+
+.dropButtonOpen {
+    border-bottom: 2px solid black;
+}
+
+.dropButton:hover {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.arrow {
+    font-size: .6em;
+}
+
+.dropList {
+    position: absolute;
+    top: 2em;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    border-radius: .5em;
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.openList {
+    display: none;
+}
+
+.listItemBox {
+    width: 100%;
+    transition: all .1s;
+    text-decoration: none;
+    color: black;
+}
+
+.listItemBox:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+}
+
+.dropListItem {
+    padding: .8em 1em;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+}

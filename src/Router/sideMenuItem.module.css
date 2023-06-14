@@ -1,0 +1,41 @@
+.listItemBox {
+    text-decoration: none;
+    user-select: none;
+    font-size: 1.1em;
+    padding-left: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    color: rgb(122, 122, 122);
+    transition: all .3s;
+}
+
+.listItemBox:hover {
+    background-color: rgb(230, 230, 230);
+    color: black;
+    cursor: pointer;
+}
+
+.listItemActive {
+    background-color: #fdb90d2a;
+    font-weight: bold;
+    color: #966b00;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.listItemActive::before {
+    content: '';
+    position: absolute;
+    left: -.7em;
+    width: 1em;
+    border-radius: .3em;
+    background-color: #FDBB0D;
+    height: 1.3em;
+}
+
+.listItemActive:hover {
+    cursor: default;
+    background-color: #fdb90d2a;
+    color: #966b00;
+}

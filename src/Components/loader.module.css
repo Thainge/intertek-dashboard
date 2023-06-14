@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+
+.spinner {
+    width: 3em;
+    margin-bottom: 2em;
+    animation: spin 1.8s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text {
+    font-size: 1.8em;
+}
+
+.shadow {
+    height: .6em;
+    width: 9em;
+    border-radius: 50%;
+    background: #FDBB0D;
+    opacity: .3;
+}

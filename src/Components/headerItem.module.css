@@ -1,0 +1,24 @@
+.listHeaderItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: .4em;
+    user-select: none;
+    padding: .7em 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.listHeaderItem:hover {
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.same {
+    font-weight: bold;
+}
+
+.headerArrows {
+    font-size: .6em;
+}

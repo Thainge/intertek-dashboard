@@ -1,0 +1,40 @@
+.filterItemBox {
+    width: 100%;
+    padding: .2em 0;
+}
+
+.filterItemBox:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.filterItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    margin-right: .5em;
+    border: 1px solid black;
+    background-color: rgb(230, 230, 230);
+    width: 1em;
+    height: 1em;
+    min-width: 1em;
+    min-height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .6em;
+    padding: .1em;
+    margin-left: 2em;
+}
+
+.hovering {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.filterText {
+    margin-left: .5em;
+    margin-right: 1em;
+}

@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    background-color: #FDBB0D;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    z-index: 2;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    column-gap: 2em;
+}
+
+.logoBox {}
+
+.logo {
+    width: 8em;
+}
+
+.login {
+    position: absolute;
+    right: 1em;
+}

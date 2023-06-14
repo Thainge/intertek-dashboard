@@ -1,0 +1,51 @@
+.container {
+    padding: 2em 1.5em;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3em;
+    height: 85vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.refresh {
+    width: 6em;
+    padding: .5em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all .3s;
+    background-color: rgb(245, 245, 245);
+    user-select: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    column-gap: .3em;
+    font-size: .9em;
+    letter-spacing: .04em;
+}
+
+.refresh:hover {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.refresh:active {
+    background-color: rgb(210, 210, 210);
+}
+
+.refreshIcon {
+    width: 1em;
+}

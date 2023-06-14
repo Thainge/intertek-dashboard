@@ -1,0 +1,49 @@
+.bgOverlay {
+    position: fixed;
+    top: 0;
+    background-color: rgb(245, 245, 245);
+    width: 11.5em;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    padding-top: 3.5em;
+    height: 100%;
+    width: 11.5em;
+    z-index: 1;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.navItemContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowHeader {
+    font-size: .95em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: inherit;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    margin-left: 1.2em;
+    display: flex;
+    column-gap: .5em;
+}
+
+.imgBox {
+    display: flex;
+    align-items: center;
+}
+
+.rowImage {
+    width: .9em;
+}
