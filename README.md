@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/Thainge/portfolio/blob/gh-pages/static/media/1.93fdfcffd2a02bb0ba44.png?raw=true)
 
-[SimplyCyber](https://simplycyberllc.com/#/)
+[Intertek Dashboard](https://thainge.github.io/intertek-dashboard/)
 
 Project management dashboard for Interteks consultant to manage customers and projects.
 
