@@ -1,6 +1,6 @@
 # Intertek Dashboard
 
-<img src="https://github.com/Thainge/portfolio/blob/gh-pages/static/media/1.93fdfcffd2a02bb0ba44.png?raw=true" width="200" />
+<img src="https://github.com/Thainge/portfolio/blob/gh-pages/static/media/1.93fdfcffd2a02bb0ba44.png?raw=true" width="500" />
 
 [Intertek Dashboard](https://thainge.github.io/intertek-dashboard/)
 
